@@ -1,24 +1,21 @@
-body {
-  font-family: "Avenir Next";
-}
-
-/* list-styleプロパティを用いて、<li>要素の黒点を取り除いてください */
-li{
-    list-style:none;
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+li {
+    list-style: none;
   }
-
 .header {
-  background-color: #f7f2b4;
-  height: 90px;
-  
-}
-
-.main {
-  background-color: #bdf7f1;
-  height: 600px;
-}
-
-.footer {
-  background-color: #ceccf3;
-  height: 270px;
-}
+    background-color: rgb(251, 185, 240);
+    height: 80px;
+    
+  }
+  .header-logo{
+    text-align: center;
+    font-size: 80px;
+    font-family: "Nico Moji"; 
+    color: aliceblue;
+    
+  }
+  .main{
+    height: 480px;
+    background-color: rgb(162, 243, 255);
+    color:rgb(0, 234, 255);
+  }
