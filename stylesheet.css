@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*{
+  margin:0;
+  padding:0;
+  }
 li {
     list-style: none;
   }
 .header {
-    background-color: rgb(251, 185, 240);
-    height: 80px;
+    background-color: rgb(253, 139, 234);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    
+
+    
     
   }
   .header-logo{
@@ -15,7 +24,33 @@ li {
     
   }
   .main{
-    height: 480px;
-    background-color: rgb(162, 243, 255);
-    color:rgb(0, 234, 255);
+    height: 1600px;
+    background-image: url("img/S__5570584.jpg");
+    background-size:  cover; 
+    width: 100%;
   }
+  nav{
+    text-align: center;
+    font-family: "Nico Moji";
+    background-color: #fdc2ff;
+    }
+    nav ul{
+    margin: 0 ;
+    padding: 0 ;
+    }
+    nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 18%;
+    min-width: 90px;
+    }
+    nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    }
+    nav ul li.current a{
+    color: #F33135;
+    }
+    nav ul li a:hover{
+    color: #E7DA66;
+    }
