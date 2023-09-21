@@ -8,9 +8,10 @@ li {
   }
 .header {
     background-color: rgb(253, 139, 234);
-    height: 100px;
+    height: 200px;
     width: 100%;
-    position: fixed;    
+    position: fixed;
+        
 
     
     
@@ -18,27 +19,35 @@ li {
   .header-logo{
     text-align: center;
     font-size: 80px;
+    margin-top: 50px;
     font-family: "Nico Moji"; 
     color: aliceblue;
     
   }
   .main{
+  
     height: 1600px;
     background-image: url("https://github.com/ibuki-0611/portfolio/blob/main/S__5570584.jpg?raw=true");
     background-size:  cover; 
     width: 100%;
     
+    
   }
   nav{
+    bottom: 480px;
     text-align: center;
     font-family: "Nico Moji";
     background-color: #fdc2ff;
+    position: fixed;
+    height: 40px;
+    width: 100%;
     }
     nav ul{
     margin: 0 ;
     padding: 0 ;
     }
     nav ul li{
+      font-size:40px;
     list-style: none;
     display: inline-block;
     width: 18%;
@@ -66,6 +75,7 @@ li {
       background-color: aliceblue;
     }
     .profile{
+
       
       font-size: 30px;
       
@@ -74,6 +84,12 @@ li {
       text-align: center;
     
     }
+    .headernull{
+      height: 200px;
+      width: 100%;
+      background-color: #F33135;
+    }
+    
     
 
     
