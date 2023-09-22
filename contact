@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="stylesheet" href="stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Progate</title>
+  </head>
+  <body>
+    
+    <div class = "header">
+      <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+    <h1 class="header-logo">ぴえぴえなきむし</h1>
+    
+  
+      <nav>
+        <ul>
+        <li class=”current”><a href=index.html>ホーム</a></li>
+        <li><a href=profile.html>プロフィール</a></li>
+        <li><a href=”#”>イラスト</a></li>
+        <li><a href=contact.html>おといあわせ</a></li>
+        
+        </ul>
+        </nav>
+    
+    </div>
+    <div class="headernull"></div>
+    <div class="contact">
+        <h1 class="contact-ttl">おといあわせ</h1>
+
+        <form action="">
+            <table class="contact-table">
+                <tr>
+                    <th class="contact-item">なまえ</th>
+                    <td class="contact-body">
+                        <input type="text" name="名前" class="form-text" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class="contact-item">せいべつ</th>
+                    <td class="contact-body">
+                        <label class="contact-sex">
+                            <input type="radio" name="性別" />
+                            <span class="contact-sex-txt">おとこ</span>
+                        </label>
+                        <label class="contact-sex">
+                            <input type="radio" name="性別" />
+                            <span class="contact-sex-txt">おんな</span>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="contact-item">メール</th>
+                    <td class="contact-body">
+                        <input type="email" name="メール" class="form-text" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class="contact-item">でんわ</th>
+                    <td class="contact-body">
+                        <input type="tel" name="電話" class="form-text" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class="contact-item">ないよう</th>
+                    <td class="contact-body">
+                        <textarea name="問い合わせ" class="form-textarea"></textarea>
+                    </td>
+                </tr>
+            </table>
+
+            <input class="contact-submit" type="submit" value="送信" />
+        </form>
+    </div>
+</body>
+</html>
+    
