@@ -89,6 +89,103 @@ li {
       width: 100%;
       background-color: #F33135;
     }
+ @media screen and (max-width: 480px) {
+      *{
+        margin:0;
+        padding:0;
+        }
+      li {
+          list-style: none;
+        }
+      .header {
+          background-color: rgb(253, 139, 234);
+          height: 150px;
+          width: 100%;
+          position: fixed;
+              
+      
+          
+          
+        }
+        .header-logo{
+          text-align: center;
+          font-size: 50px;
+          margin-top: 50px;
+          font-family: "Nico Moji"; 
+          color: aliceblue;
+          
+        }
+        .main{
+        
+          height: 1600px;
+          background-image: url("https://github.com/ibuki-0611/portfolio/blob/main/S__5570584.jpg?raw=true");
+          background-size:25%; 
+          width: 100%;
+          
+          
+        }
+        nav{
+          text-align: center;
+          font-family: "Nico Moji";
+          background-color: #fdc2ff;
+          position: fixed;
+          height: 30px;
+          width: 100%;
+          top: 130px;
+          }
+          nav ul{
+          margin: 0 ;
+          padding: 0 ;
+          }
+          nav ul li{
+            padding-top: 8px;
+            font-size:14px;
+          list-style: none;
+          display: inline-block;
+          
+          min-width: 30px;
+          }
+          nav ul li a{
+          text-decoration: none;
+          color: #ffffff;
+          }
+          nav ul li.current a{
+          color: #F33135;
+          }
+          nav ul li a:hover{
+          color: #E7DA66;
+          }
+          .mainimage{
+            padding-top: 75px;
+            width:100px;
+             height:100px;
+             
+          }
+          .leftmenu{
+            height: 100%;
+            width: 150px;
+            background-color: aliceblue;
+          }
+          .profile{
+      
+            
+            font-size: 15px;
+            
+            font-family: "Nico Moji"; 
+          color: rgb(0, 0, 0);
+            text-align: center;
+          
+          }
+          .headernull{
+            height: 150px;
+            width: 100%;
+            background-color:  #fdc2ff;
+          }
+          
+        }      
+    
+    
+   
     
     
 
